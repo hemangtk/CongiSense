@@ -15,6 +15,8 @@ CogniSense uses keystroke timing data from password typing sessions as a proxy f
 
 **DSL-StrongPasswordData.csv** - Carnegie Mellon University Keystroke Dynamics Dataset
 
+**Download Link**: [DSL-StrongPasswordData.csv](https://drive.google.com/file/d/1HMTp-Rn2dIfv-tNtfoc_EuZrTHxsPU5p/view?usp=sharing)
+
 | Attribute | Value |
 |-----------|-------|
 | Total Samples | 20,400 rows |
@@ -112,7 +114,9 @@ hdbscan>=0.8.0
    https://colab.research.google.com/github/hemangtk/CongiSense/blob/main/CogniSense_AML.ipynb
    ```
 
-2. **Upload Dataset**: When prompted, upload the `DSL-StrongPasswordData.csv` file
+2. **Download & Upload Dataset**: 
+   - Download the dataset from [Google Drive](https://drive.google.com/file/d/1HMTp-Rn2dIfv-tNtfoc_EuZrTHxsPU5p/view?usp=sharing)
+   - When prompted in the notebook, upload the `DSL-StrongPasswordData.csv` file
 
 3. **Run All Cells**: Execute cells sequentially (Runtime → Run all)
 
@@ -138,7 +142,7 @@ hdbscan>=0.8.0
    ```
 
 4. **Download Dataset**
-   - Download `DSL-StrongPasswordData.csv` from the CMU Keystroke Dynamics Dataset
+   - Download `DSL-StrongPasswordData.csv` from [Google Drive](https://drive.google.com/file/d/1HMTp-Rn2dIfv-tNtfoc_EuZrTHxsPU5p/view?usp=sharing)
    - Place it in the project root directory
 
 5. **Launch Jupyter Notebook**
